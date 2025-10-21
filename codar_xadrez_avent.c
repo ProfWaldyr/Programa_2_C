@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 int main(){
@@ -9,13 +10,14 @@ int main(){
     for(i = 1; i <= 5; i++)
     {
         letra = 'A';
-        for(j = 1; j<= i, j++ )
+        for(j = 1; j <= i; j++)
     {
         printf("%c", letra);
-        letra++;
+        ++letra;
     }
-return 0;
+        printf("\n");
+}
+    return 0;
+
 
 }
-}
-
