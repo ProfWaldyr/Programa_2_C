@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int.main() {
+int main() {
     int numero, i;
 
     printf("Digite um número para calcularmos a tabuada...");
