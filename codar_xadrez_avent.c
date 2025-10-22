@@ -7,7 +7,7 @@ int main(){
 
     char letra;
     
-    for(i = 1; i <= 5; i++)
+    for(i = 1; i <= 10; i++)
     {
         letra = 'A';
         for(j = 1; j <= i; j++)
