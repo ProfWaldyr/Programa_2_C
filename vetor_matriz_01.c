@@ -1,20 +1,27 @@
 #include <stdio.h>
 
+#define linhas 5
+#define colunas 5
+
 int main() {
 
-int vetor [10] = {1,2,3,4,5,6,7,8,9,10};
+    int matriz [linhas] [colunas];
 
-int soma = 0;
+    int soma = 0;
 
-// Calculamos a soma dos elementos do vetor;
+    for (int i = 0; i < linhas; i++){
 
-for (int i = 0; i <=10; i ++); {
-    
-    soma += vetor [i];
+        for(int j = 0; j < colunas; j++){
 
+            soma ++;
+
+            matriz [i][j] = soma;
+        
+            printf ("%d", matriz [i] [j]);
+        }
+            printf("\n");
     }
-
-    print("A soma dos elementos do vetor é: %d\n", soma);
+}
 
 
 return 0
