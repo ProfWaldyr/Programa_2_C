@@ -8,7 +8,8 @@ int soma = 0;
 
 // Calculamos a soma dos elementos do vetor;
 
-for (int = 0; i <=10; i ++); {
+for (int i = 0; i <=10; i ++); {
+    
     soma += vetor [i];
 
     }
